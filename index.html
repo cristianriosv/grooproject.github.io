@@ -8,6 +8,7 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
+    <script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
@@ -119,7 +120,16 @@
         <div id="diagrama">
           <img src="img/diagrama.jpeg">
         </div>
-        <p><a class="btn btn-primary btn-large " href="#">Be one of the first to try it!</a></p>
+
+        <div id="form">
+          <form id="email-form">
+            <span>Are you interested? Be one of the first to try Groo</span>
+            <div class="input-append">
+              <input type="text" id="user-email" placeholder="e-mail address">
+              <a class="btn btn-primary" href="#">Go</a>
+            </div>
+          </form>
+        </div>
 
       <hr>
 
@@ -160,6 +170,7 @@
     <script src="js/bootstrap-collapse.js"></script>
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/get-user-data.js"></script>
 
   </body>
 </html>
