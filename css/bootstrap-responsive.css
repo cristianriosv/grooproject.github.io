@@ -787,10 +787,16 @@
 }
 
 @media (max-width: 767px) {
-  body {
-    padding-right: 20px;
-    padding-left: 20px;
+  #wrapperHome {
+    margin-right: 10px;
+    margin-left: 10px;
   }
+  div#logoHeadHome{
+	  	float:none;
+	  }
+	  div#descHeadHome{
+	  	display:none;
+	  }
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
